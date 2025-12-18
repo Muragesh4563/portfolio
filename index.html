@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muragesh Shivagonda Chougule | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 50px 0 30px 0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #222;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    /* Skills */
+    .skills {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+
+    .skill {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: transform 0.3s;
+    }
+
+    .skill:hover {
+      transform: scale(1.1);
+    }
+
+    /* Projects */
+    .projects {
+      margin: 50px 0;
+    }
+
+    .projects h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    .project-card {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      color: #4caf50;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      margin-bottom: 10px;
+    }
+
+    .project-card a {
+      color: #fff;
+      background-color: #4caf50;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .project-card a:hover {
+      background-color: #388e3c;
+    }
+
+    /* Certifications */
+    .certifications {
+      margin: 50px 0;
+    }
+
+    .certifications h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    .cert-list {
+      list-style: none;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .cert-list li {
+      background-color: #e0f7fa;
+      margin: 10px auto;
+      padding: 12px 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      font-weight: bold;
+      color: #00796b;
+    }
+
+    /* Contact */
+    .contact {
+      margin: 50px 0;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      background-color: #4caf50;
+      color: #fff;
+      transition: background 0.3s;
+    }
+
+    .contact a:hover {
+      background-color: #388e3c;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #fff;
+      margin-top: 50px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .skills {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .project-card {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muragesh Shivagonda Chougule</h1>
+    <p>BCA Student | Aspiring Web Developer</p>
+    <p>"I am Muragesh Shivagonda Chougule, a BCA student with a passion for web development and programming. I enjoy creating projects that solve problems and continuously learning new technologies to grow my skills."</p>
+  </header>
+
+  <div class="container">
+    <!-- Skills -->
+    <section class="skills">
+      <div class="skill">C</div>
+      <div class="skill">Java</div>
+      <div class="skill">Python</div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>E-Commerce Website</h3>
+        <p>Technologies: HTML, CSS, JavaScript</p>
+        <p>A responsive and user-friendly e-commerce website featuring product listings, shopping cart, and checkout pages.</p>
+        <a href="https://muragesh4563.github.io/Ecom.Website/" target="_blank">View Project</a>
+      </div>
+
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>Frontend Development Certification – KLE SSMS BCA College, Athani</li>
+        <li>Backend Development Certification – KLE SSMS BCA College, Athani</li>
+        <li>Data Analytics Certification – Deloitte</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <a href="mailto:murageshchougule0@gmail.com">Email</a>
+      <a href="tel:9767170096">Phone</a>
+      <a href="https://www.linkedin.com/in/muragesh-chougule-065a00237/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Muragesh4563" target="_blank">GitHub</a>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Muragesh Shivagonda Chougule | All Rights Reserved
+  </footer>
+
+</body>
+</html>
